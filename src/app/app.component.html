@@ -3,7 +3,7 @@
     <button (click)="drawer.toggle()" mat-icon-button>
       <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
     </button>
-    <span>Aqua Viewer</span>
+    <span>Miksu! Diva</span>
     <span class="spacer-util"></span>
 
     <button *ngIf="user" [matMenuTriggerFor]="userMenu" mat-icon-button>
@@ -21,16 +21,9 @@
                  fixedTopGap="56">
       <mat-nav-list>
         <a mat-list-item routerLink="/dashboard">Dashboard</a>
-        <a mat-list-item routerLink="/import">Import</a>
-        <mat-divider></mat-divider>
-        <mat-toolbar>O.N.G.E.K.I</mat-toolbar>
-        <a *ngFor="let item of ongekiMenu" mat-list-item routerLink="/{{item.url}}">{{item.name}}</a>
         <mat-divider></mat-divider>
         <mat-toolbar>Project DIVA AFT</mat-toolbar>
         <a *ngFor="let item of divaMenus" mat-list-item routerLink="/{{item.url}}">{{item.name}}</a>
-        <mat-divider></mat-divider>
-        <mat-toolbar>CHUNITHM Amazon</mat-toolbar>
-        <a *ngFor="let item of amazonMenus" mat-list-item routerLink="/{{item.url}}">{{item.name}}</a>
       </mat-nav-list>
     </mat-sidenav>
 

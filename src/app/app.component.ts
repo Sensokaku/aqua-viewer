@@ -12,7 +12,7 @@ import {ApiService} from './api.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit, OnChanges, OnDestroy {
-  title = 'aqua-viewer';
+  title = 'Miksu! Diva';
 
   user: User;
 
@@ -104,7 +104,7 @@ export class AppComponent implements OnInit, OnChanges, OnDestroy {
     },
     {
       id: 1,
-      name: 'Pv Record',
+      name: 'Pv Records',
       url: 'diva/record'
     },
     {
@@ -114,26 +114,21 @@ export class AppComponent implements OnInit, OnChanges, OnDestroy {
     },
     {
       id: 3,
-      name: 'Recent Play',
+      name: 'Recent Plays',
       url: 'diva/recent'
     },
     {
       id: 4,
-      name: 'Setting',
+      name: 'Settings',
       url: 'diva/setting'
     },
     {
       id: 5,
-      name: 'Management',
-      url: 'diva/management'
-    },
-    {
-      id: 6,
       name: 'Modules',
       url: 'diva/modules'
     },
     {
-      id: 7,
+      id: 6,
       name: 'Customizes',
       url: 'diva/customizes'
     },

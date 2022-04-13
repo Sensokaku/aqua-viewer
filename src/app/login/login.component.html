@@ -6,14 +6,17 @@
     <form (ngSubmit)="onSubmit()" [formGroup]="loginForm">
 
       <mat-form-field class="full-width">
-        <mat-label>Access Code</mat-label>
+        <mat-label>Access Code (Aquired in-game)</mat-label>
         <input formControlName="accessCode" matInput required type="text">
-      </mat-form-field>
-      <mat-form-field class="full-width">
-        <mat-label>ApiServer</mat-label>
-        <input formControlName="apiServer" matInput required type="text">
       </mat-form-field>
       <button [disabled]="!loginForm.valid" mat-raised-button type="submit">Login</button>
     </form>
+  </mat-card-content>
+</mat-card>
+
+<mat-card>
+  <mat-card-title>Miksu! Diva IP</mat-card-title>
+  <mat-card-content>
+    IP : aqua.miksu.pw
   </mat-card-content>
 </mat-card>

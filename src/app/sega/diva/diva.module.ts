@@ -32,13 +32,7 @@ import {MatDatepickerModule} from '@angular/material/datepicker';
 import {DivaSkinSettingDialog} from './diva-setting/diva-skin-setting/diva-skin-setting.dialog';
 import {DivaPvRecordComponent} from './diva-pv-record/diva-pv-record.component';
 import {DivaRecordDetailComponent} from './diva-record-detail/diva-record-detail.component';
-import {DivaManagementComponent} from './diva-management/diva-management/diva-management.component';
-import {DivaFestaComponent} from './diva-management/diva-festa/diva-festa.component';
-import {DivaFestaEditComponent} from './diva-management/diva-festa/diva-festa-edit/diva-festa-edit.component';
-import {DivaContestComponent} from './diva-management/diva-contest/diva-contest.component';
-import {DivaContestEditComponent} from './diva-management/diva-contest/diva-contest-edit/diva-contest-edit.component';
 import {DivaModulesComponent} from './diva-modules/diva-modules.component';
-import {DivaNewsComponent} from './diva-management/diva-news/diva-news.component';
 import {DivaCustomizeComponent} from './diva-customize/diva-customize.component';
 import {DivaRivalSettingDialog} from './diva-setting/diva-rival-setting/diva-rival-setting.dialog';
 import {NgxPaginationModule} from 'ngx-pagination';
@@ -63,13 +57,7 @@ import {DivaPvlistComponent} from './diva-pvlist/diva-pvlist.component';
     DivaDisplaySettingDialog,
     DivaRivalSettingDialog,
 
-    DivaManagementComponent,
-    DivaFestaComponent,
-    DivaFestaEditComponent,
-    DivaContestComponent,
-    DivaContestEditComponent,
     DivaModulesComponent,
-    DivaNewsComponent,
     DivaCustomizeComponent,
     DivaPvlistComponent,
   ],
