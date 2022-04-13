@@ -3,14 +3,14 @@
 A WebUI for Aqua Server
 
 ## Live Version
-Go http://aqua.miksu.pw
-
-Please notice that if you are using HTTPS, your browser may block HTTP connect to the game server.
+Go https://miksu.pw
 
 ## Self Host
-uhh if you know then you know.
 
-###Build From Source
+### Build From Source
+
+You will need to change the api/login to your domain/ip if wanting to use it on your Aqua Server.
+
 You need to have Angular-cli installed and run `ng build --prod`.
 
 Please follow the [deployment guide](https://angular.io/guide/deployment) if you are new to angular.
